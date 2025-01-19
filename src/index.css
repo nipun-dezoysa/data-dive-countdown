@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .footer-img {
   @apply h-[80px];
+}
+
+.time{
+    @apply text-9xl font-bold text-[#fad02c] font-teko w-32; 
+}
+
+.time-sub{
+    @apply font-semibold text-3xl font-caveat;
 }
