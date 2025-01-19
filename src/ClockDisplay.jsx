@@ -20,7 +20,7 @@ function ClockDisplay() {
       // Render a countdown
       return (
         <>
-          <div className="text-center text-6xl font-bold  font-teko">
+          <div className="text-center text-3xl md:text-6xl font-bold  font-teko">
             The clock is ticking!
           </div>
           <div className="flex items-center gap-12">
@@ -46,7 +46,7 @@ function ClockDisplay() {
   };
   const sriLankanOffset = 5.5 * 60 * 60 * 1000;
   return (
-    <div className="z-30 flex flex-col items-center gap-2 bg-white/5 backdrop-blur-sm p-10 rounded-3xl">
+    <div className="z-30 max-md:w-[90%] flex flex-col items-center gap-2 bg-white/5 backdrop-blur-sm p-10 rounded-3xl">
       <Countdown
         date={new Date("2025-01-20T11:00:00+05:30")}
         renderer={renderer}

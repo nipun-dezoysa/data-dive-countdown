@@ -5,13 +5,13 @@
 @tailwind utilities;
 
 .footer-img {
-  @apply h-[80px];
+  @apply h-[35px] md:h-[80px];
 }
 
 .time{
-    @apply text-9xl font-bold text-[#fad02c] font-teko w-32; 
+    @apply text-7xl md:text-9xl font-bold text-[#fad02c] font-teko w-14 md:w-32 flex justify-center items-center;  
 }
 
 .time-sub{
-    @apply font-semibold text-3xl font-caveat;
+    @apply font-semibold text-xl md:text-3xl font-caveat;
 }
