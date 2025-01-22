@@ -48,7 +48,7 @@ function ClockDisplay() {
   return (
     <div className="z-30 max-md:w-[90%] flex flex-col items-center gap-2 bg-white/5 backdrop-blur-sm p-10 rounded-3xl">
       <Countdown
-        date={new Date("2025-01-22T12:15:00+05:30")}
+        date={new Date("2025-01-22T12:00:00+05:30")}
         renderer={renderer}
       />
     </div>
